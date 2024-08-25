@@ -6,7 +6,6 @@ const sox = require("./codec2/sox.js");
 const Codec2Lib = require("./codec2/codec2-lib.js");
 const protobuf = require("protobufjs");
 const decode_audio = require("audio-decode");
-const { audioToSlice } = require("audio-slicer");
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
